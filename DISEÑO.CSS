@@ -1,0 +1,73 @@
+header{
+	width: 100%;
+	height: 5rem;
+	position: fixed;
+	top: 0;
+	left:0;
+	right:0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 0 0 20px 2px #45f3ff;
+
+}
+
+.logo{
+	font-size: 2rem;
+}
+
+ul a{
+margin-left: 1rem;
+transition: 1s;
+}
+
+ul a:hover{
+	font-size: 1.5 rem;
+	color: #808080;
+}
+
+section{
+	display: flex;
+	width: 500px;
+	height: 360px;
+}
+
+section.img{
+	width: 0px;
+	flex-grow: 1;
+	object-fit: cover;
+	opacity: .8;
+	transition: .5s ease;
+
+}
+
+section.img.hover {
+	cursor: crosshair;
+	width: 300px;
+	opacity: 1;
+	filter: contrast(120%);
+}
+
+style
+
+#mapa {
+	margin: 0 auto;
+	background-color: #FFB6C1;
+	border-radius: 5PX;
+	display: flex;
+	flex-direction: column;
+	justify-content: CENTER;
+	align-items: center;
+	width: fit-content;
+}
+
+#mapa h1{
+	text-align: center;
+	color: pink;
+
+}
+
+#frameMapa{
+	border-radius: 5px;
+	margin: 15px;
+}
